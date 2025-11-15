@@ -1,0 +1,7 @@
+brandswetravelwith.tripadvisor.com/wp-json/oembed/1.0/embed,url
+cdn.tripadvisor.com/ExternalLinkInterstitial,redirectTo
+www.tripadvisor.com/ExternalLinkInterstitial,redirectTo
+www.tripadvisor.com/ClientLink,value
+www.trendcast.tripadvisor.com/auth/protected-redirect/external,messEnabled
+
+
