@@ -1,24 +1,18 @@
 
 # HTTP Parameter Fuzzer
 
-A lightweight Python-based HTTP fuzzing tool for security testing, bug bounty reconnaissance, and parameter-based vulnerability discovery.
+A lightweight Python-based HTTP parameter fuzzing tool for security testing, bug bounty reconnaissance, and parameter-based vulnerability discovery.
 It loads a list of targets and payloads, automatically builds test requests, logs responses, and saves results in structured JSON.
 
 ---
 
 ## Features
 
-* Automated HTTP requests with payload injection
-* Support for multiple targets and parameters
+* Automated HTTP requests with parameter fuzzing
 * Customizable headers & rate limiting
-* Detailed logging (status code, headers, body snippet)
 * JSON output for easy analysis
 * Graceful error handling
-* Simple, readable implementation
-* Works with any endpoint using query parameters
-
 ---
-
 ## How It Works
 
 1. Load targets from `target.txt`
@@ -53,7 +47,7 @@ It loads a list of targets and payloads, automatically builds test requests, log
 
 ## Requirements
 
-* Python 3.8+
+* Python 3.9+
 * `requests` library
 
 Install dependency:
@@ -80,12 +74,8 @@ example.com/search,q
 Create `payload.txt`:
 
 ```
-'
-"
-<>
-test123
-1 OR 1=1
-```
+https://www.google.com,
+http://www.example.com
 
 ### 3. Run the fuzzer
 
@@ -137,19 +127,6 @@ RATE_LIMIT_DELAY = 0.1
 REQUEST_TIMEOUT = 10
 HEADERS = {'User-Agent': 'Bugcrowd-Fuzzer'}
 ```
-
----
-
-## Project Structure
-
-```
-fuzzer.py
-target.txt
-payload.txt
-fuzzing_results.json
-README.md
-```
-
 ---
 
 ## Disclaimer
