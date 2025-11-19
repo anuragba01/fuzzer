@@ -59,11 +59,10 @@ pip install requests
 ---
 
 ## Usage
-### 0. clone the repo 
-    ```bash
+### 0.clone the repo 
+
     git clone https://github.com/anuragba01/fuzzer
     cd fuzzer
-    ```
 
 ### 1. Add your targets
 
@@ -81,7 +80,7 @@ Create `payload.txt`:
 ```
 https://www.google.com,
 http://www.example.com
-
+```
 ### 3. Run the fuzzer
 
 ```bash
