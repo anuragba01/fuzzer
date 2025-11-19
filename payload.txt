@@ -1,2 +1,2 @@
 https://www.google.com,
-http://efzvkddyibkzarmzrfjbqqnba50h833sf.oast.fun
+http://your-server-com
