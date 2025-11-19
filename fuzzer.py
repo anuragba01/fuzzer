@@ -9,7 +9,7 @@ from datetime import datetime
 TARGET_FILE = "target.txt"
 PAYLOAD_FILE = "payload.txt"
 OUTPUT_JSON = "fuzzing_results.json"
-HEADERS = {'User-Agent': 'Bugcrowd-Fuzzer'}
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0'}
 REQUEST_TIMEOUT = 10
 RATE_LIMIT_DELAY = 0.1  # 100ms between requests
 # ---------------------
