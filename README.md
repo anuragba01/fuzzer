@@ -59,6 +59,11 @@ pip install requests
 ---
 
 ## Usage
+### 0. clone the repo 
+    ```bash
+    git clone https://github.com/anuragba01/fuzzer
+    cd fuzzer
+    ```
 
 ### 1. Add your targets
 
